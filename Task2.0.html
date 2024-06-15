@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .x{
+            background-color: aquamarine;
+            border-radius: 10px;
+        }
+        table{
+            border-radius: 10px;
+        }
+        td{
+            border: solid black 1px;
+            border-radius: 10px;
+        }
+        th{
+            border: solid black 1px;
+            border-radius: 10px;
+        }
+        .y{
+        display: grid;
+        grid-template-columns: repeat(3,150px);
+        grid-template-rows: repeat(3,150px); 
+        justify-content: center; 
+        align-content: center; 
+    }
+        .square{
+      width: 100px; 
+      height: 100px; 
+      background-color: white;
+      border: 5px solid; 
+      border-color: greenyellow; 
+      border-radius: 3px;
+    }
+    .square2{
+        width: 110px;
+        height: 90px;
+        border: solid greenyellow 5px;
+        background-color: white;
+        border-radius: 5px;
+    }
+    .square3{
+        width: 100px;
+        height: 100px;
+        border: solid greenyellow 5px;
+        background-color: white;
+        border-radius: 30px;
+    }
+    .square4{
+        width: 100px;
+        height: 100px;
+        border: solid greenyellow 5px;
+        background-color: white;
+        border-radius: 10px;
+    }
+    .square5{
+        width: 100px;
+        height: 100px;
+        border: solid greenyellow 5px;
+        background-color: white;
+    }
+    .square6{
+        width: 100px;
+        height: 100px;
+        border: solid greenyellow 5px;
+        background-color: white;
+        border-radius: 20px;
+    }
+    .square7{
+        width: 100px;
+        height: 100px;
+        border: solid greenyellow 5px;
+        background-color: white;
+        border-radius: 1000px;
+    }
+    .square8{
+        width: 100px;
+        height: 100px;
+        border: solid greenyellow 5px;
+        background-color: white;
+        border-radius: 10px;
+    }
+    .square9{
+        width: 100px;
+        height: 100px;
+        border: solid greenyellow 5px;
+        background-color: white;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+
+    }
+    .container{
+        height: 180px;
+        width:150px;
+        top: 0;
+        left: 0;
+        background-color:aqua;
+        border: solid black;
+        padding: 10px;
+    }
+    .container a {
+        padding: 10px 15px;
+        text-decoration: none;
+        font-size: 18px;
+        color: blue;
+        display: block;
+        
+    }
+    .container a:hover{
+        background-color: orange;
+    }
+    .container2{
+        display: inline-block;
+        background-color:lightgrey;
+        border: solid black;
+        padding: 10px; 
+    }
+    .container2 a{
+        padding: 10px;
+        text-decoration: none;
+        font-size: 18px;
+        color: blue;
+
+    }
+    .container2 a:hover{
+        color: white;
+        background-color: grey;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="x" >
+        <table style="border: solid black 1px;width: 100%;">
+            <tr>
+                <th>
+                    <b>First Name</b>
+                </th>
+                <th>
+                    <b>Last Name</b>
+                </th>
+                <th>
+                    <b>Age</b>
+                </th>
+            </tr>
+            <tr>
+                <td>jill</td>
+                <td>smith</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>john</td>
+                <td>Doe</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>94</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <div class="y">
+    <div class="square"></div>
+    <div class="square2"></div>
+    <div class="square3"></div>
+    <div class = "square4"></div>
+    <div class = "square5"></div>
+    <div class = "square6"></div>
+    <div class = "square7"></div>
+    <div class = "square8"></div>
+    <div class = "square9"></div>
+</div>
+<br>
+<h3><b>Vertical Navigation Bar</b></h3>
+<div class="container">
+    <a href="">Home</a>
+    <a href="">Java</a>
+    <a href="">HTML</a>
+    <a href="">Bootstrap</a>
+</div>
+<br>
+<h3>Horizontal Navbar</h3>
+<div class="container2">
+    <a href="">Home</a>
+    <a href="">Java</a>
+    <a href="">HTML</a>
+    <a href="">Bootstrap</a>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #A1 table,#A1 th,#A1 td{
+                border: 1px solid white;
+                background-color: aqua;
+                border-collapse: collapse;
+        }
+        .forms {
+            margin-bottom: 10px;
+
+        }
+
+        .forms label    {
+            display: inline-flex;
+            width: 150px;
+            text-align: center;
+        }
+        #reg h1{
+            text-align: center;
+            color: blue;
+        }
+        .form1{
+            border: 1px solid black;
+            padding: 10px;
+            width: fit-content;
+            border-radius: 10px;
+        }
+        .tinks{
+            width: fit-content;
+            padding: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <table  id="A1" style="width: 100%;">
+        <tr>
+            <th>Firstname</th>
+            <th> Last name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Gill</td>
+            <td>Smith</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+        </tr>
+        <tr><td>john</td>
+        <td>Doe</td>
+        <td>80</td></tr>
+    </table>
+<br><br><br><br><br>
+<div class="form1">
+    <form action="">
+<div class="forms">
+            <label for="Fname">Firstname : </label>
+            <input type="text", id="Fname"><br>
+</div>
+<div class="forms">
+            <label for="Username">Username : </label>
+            <input type="text",id = "Username"><br>
+</div>
+<div><div class="forms">
+            <label for="password">password : </label>
+            <input type="password", id="password"><br>
+</div>
+<div class="forms">
+            <label for="re password">Re password : </label>
+            <input type="password", id="re password"><br>
+        </div>
+<div class="forms">
+            <label for="Address">Address : </label>
+            <input type="text", id="Address"><br>
+        </div>
+<div class="forms">
+            <label for="Age">Age : </label>
+            <input type="number",id="Age"><br>
+        </div>
+<div class="forms">
+            <label for="Gender">Gender : </label>
+            <select name="Gender" id="Gender"><br>
+                <option value="male">male</option>
+                <option value="female">female</option>
+            </select>
+        </div>
+<br>
+        <button type="submit" >save</button>
+    </form>
+</div>
+</div>
+
+
+    <br><br><br><br><br>
+    <div class="tinks" style="border: 1px solid black;padding-left: 10px;background-color:rgb(239, 239, 239);">
+        <p>Click any of the links in the following</p>
+        <a href="https://imgs.search.brave.com/YxcdOe7OBNuZagySQHEHwaguwaHrnGxugAaFEjupM_8/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2E1LzBh/LzBiL2E1MGEwYmUz/Y2U4MTNkNmI4ZjJm/NmI2N2YyYzgzODZi/LmpwZw" target="_blank">Opens in New</a> |
+        <a href="https://imgs.search.brave.com/YxcdOe7OBNuZagySQHEHwaguwaHrnGxugAaFEjupM_8/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2E1LzBh/LzBiL2E1MGEwYmUz/Y2U4MTNkNmI4ZjJm/NmI2N2YyYzgzODZi/LmpwZw" target="_self">Opens in Self</a> |
+        <a href="https://imgs.search.brave.com/YxcdOe7OBNuZagySQHEHwaguwaHrnGxugAaFEjupM_8/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2E1LzBh/LzBiL2E1MGEwYmUz/Y2U4MTNkNmI4ZjJm/NmI2N2YyYzgzODZi/LmpwZw" target="_parent">Opens in Parent</a> |
+        <a href="https://imgs.search.brave.com/YxcdOe7OBNuZagySQHEHwaguwaHrnGxugAaFEjupM_8/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2E1LzBh/LzBiL2E1MGEwYmUz/Y2U4MTNkNmI4ZjJm/NmI2N2YyYzgzODZi/LmpwZw" target="_top">Opens in body</a> 
+    </div>
+    <br><br><br><br><br>
+    
+    <div id="list" style="border: 1px solid black;width: fit-content; padding: 10px;">
+        <p>Lists can be nested (list inside list)</p>
+        <ul>
+            <li>Coffee</li>
+            <li>Tea
+                <ul>
+                    <li>
+                        Green Tea
+                    </li>
+                    <li>
+                        Black Tea
+                    </li>
+                </ul>
+            </li>
+            <li>Milk</li>
+        </ul>
+    </div>
+    <br><br><br><br><br>
+</body>
+</html>
